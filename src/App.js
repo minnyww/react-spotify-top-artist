@@ -28,7 +28,7 @@ const scopes = [
 ].join(",");
 
 const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://localhost:3000/callback";
+const redirectUri = "https://react-spotify-top-artist.vercel.app/callback";
 const clientId = "64f3f525894245e09b0053cbdb15bf36";
 const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes}&response_type=token&show_dialog=true`;
 
